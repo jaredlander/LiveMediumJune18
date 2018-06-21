@@ -1,0 +1,32 @@
+---
+title: My First Markdown Document
+author: The Medium R Crew
+date: The Best Day Ever
+output: html_document
+---
+
+# First Section
+
+We just created our first section in this document. Spacing is very important in markdown, so we left a blank line after the hash tag.
+
+We create a new paragraph by leaving a blank line. See how important spaces are in markdown?
+
+# Second Section
+
+To create a new section, simply start a new section. No need to clost the previous section. Again, leave spaces.
+
+# Let's Talk About Subsections
+
+To create a subection, use two hashtags.
+
+## First Subsection
+
+We now have a subsection in the enclosing section.
+
+## Second Section
+
+To start a new subsection, simply start a new one, no closing the old one, just like wtih sections.
+
+# Back to Sections
+
+Return to sections just by starting a new section. Very simple.
