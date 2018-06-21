@@ -1,8 +1,16 @@
 ---
-title: My First Markdown Document
-author: The Medium R Crew
-date: The Best Day Ever
-output: html_document
+title: "My First Markdown Document"
+author: "The Medium R Crew"
+date: "The Best Day Ever"
+output:
+  html_document:
+    number_sections: yes
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+  pdf_document:
+    toc: yes
 ---
 
 # First Section
