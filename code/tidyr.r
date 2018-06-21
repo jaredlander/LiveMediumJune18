@@ -16,3 +16,22 @@ emotionLong
 
 emotionLong %>% 
     spread(key=Type, value=Measurement)
+
+emotion %>% 
+    unite(col='UniqueID', ID, Test)
+
+emotion %>% 
+    unite(col='UniqueID', ID, Test, sep='|')
+
+emotion %>% 
+    unite(col='UniqueID', ID, Test, remove=FALSE)
+
+emotion %>% 
+    separate(col=Age, into=c('Year', 'Fraction'))
+
+emotion %>% 
+    separate(col=Age, into=c('Year', 'Fraction')) %>% 
+    dplyr::mutate(Year=as.numeric(Year))
+
+emotion %>% 
+    separate(col=Age, into=c('Year', 'Fraction'), sep='\\.', remove=FALSE)
