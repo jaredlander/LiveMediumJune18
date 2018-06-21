@@ -30,3 +30,20 @@ To start a new subsection, simply start a new one, no closing the old one, just 
 # Back to Sections
 
 Return to sections just by starting a new section. Very simple.
+
+# Lists
+
+## Unordered Lists
+
+- Apples
+- Bananas
+- Oranges
+- Kiwis
+
+## Ordered Lists
+
+1. New York
+1. New Jersey
+1. Naples
+1. Detroit
+1. Rome
