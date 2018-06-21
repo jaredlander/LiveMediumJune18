@@ -82,3 +82,29 @@ ___This will be both emphasized and strong___
 # Links
 
 [Link to my website](http://www.jaredlander.com)
+
+# R Time!!!!!!
+
+```{r addition}
+1 + 1
+```
+
+```{r variables}
+x <- 3
+x
+```
+
+Let's see if that variable `x` is available in other junks.
+
+```{r multiplication}
+x*2
+```
+
+# Plots
+
+```{r histogram,echo=FALSE}
+library(ggplot2)
+
+ggplot(diamonds, aes(x=price)) + geom_histogram()
+```
+
