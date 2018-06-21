@@ -47,3 +47,38 @@ Return to sections just by starting a new section. Very simple.
 1. Naples
 1. Detroit
 1. Rome
+
+And now we show a sublist example
+
+1. New York
+    1. Coal
+    1. Wood
+    1. Gas
+1. New Jersey
+    1. Gas
+    1. Wood
+1. Detroit
+    1. Gas
+    1. Electric
+1. Naples
+    1. Wood
+1. Philadelphia
+1. Rome
+
+a. Coal
+a. Wood
+a. Gas
+
+# Formatting
+
+_Text in here is emphasized_
+
+__This will be strong text__
+
+___This will be both emphasized and strong___
+
+`This is code text`
+
+# Links
+
+[Link to my website](http://www.jaredlander.com)
