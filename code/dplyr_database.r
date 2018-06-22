@@ -33,3 +33,10 @@ dbplyr::translate_sql(
         group_by(cut) %>% 
         summarize(Price=AVG(mean))
 )
+
+colorTab <- tbl(con, 'diamondColors')
+colorTab
+pryr::object_size(colorTab)
+
+
+left_join(diaTab, colorTab, by=c('color'='Color'))
