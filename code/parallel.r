@@ -33,3 +33,5 @@ map(theList, sum)
 lapply(theList, sum)
 
 parLapply(cl=cl, theList, sum)
+
+stopCluster(cl)
