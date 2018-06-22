@@ -40,3 +40,5 @@ pryr::object_size(colorTab)
 
 
 left_join(diaTab, colorTab, by=c('color'='Color'))
+
+joinedTab <- left_join(diaTab, colorTab, by=c('color'='Color')) %>% collect()
