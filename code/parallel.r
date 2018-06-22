@@ -28,3 +28,8 @@ foreach(a=theList, .combine=c, .multicombine=TRUE, .inorder=FALSE) %dopar%
 {
     sum(a)
 }
+
+map(theList, sum)
+lapply(theList, sum)
+
+parLapply(cl=cl, theList, sum)
