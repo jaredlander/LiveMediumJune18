@@ -12,3 +12,14 @@ ribalta %>% html_nodes('.street') %>% html_text()
 
 ribalta %>% html_nodes('#latitude')
 ribalta %>% html_nodes('#latitude') %>% html_attr('value')
+
+ribalta %>% html_nodes('table.food-items')
+
+ribalta %>% 
+    html_nodes('table.food-items') %>% 
+    magrittr::extract2(5)
+
+ribalta %>% 
+    html_nodes('table.food-items') %>% 
+    magrittr::extract2(5) %>% 
+    html_table()
